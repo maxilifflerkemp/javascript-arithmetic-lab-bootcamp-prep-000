@@ -7,3 +7,6 @@ function divide() {}
 
 function increment(n) { return n += 1 }
 function decrement(n) { return n -= 1 }
+
+function makeInt(string) { parseInt(string) }
+function preserveDecimal(string) { parseFloat(string) } 
